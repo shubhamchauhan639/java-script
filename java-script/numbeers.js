@@ -1,25 +1,19 @@
-const name = "shubham"
-const repocount = 50
-console.log(`hello my name is ${name} and my repocount is ${repocount}`);
+const score = 400
+console.log(score);
 
-const gameName = new String ('call-of-duty')
-console.log(gameName[0]);
-console.log(gameName.__proto__);
-console.log(gameName.length);
-console.log(gameName.charAt(2));
-console.log(gameName.toUpperCase());
-console.log(gameName.indexOf("g"));
+const balanceNumber = new Number (500)
+console.log(balanceNumber);
+console.log(balanceNumber.toString().length);
+console.log(balanceNumber.toFixed(2));
+const otherNumber = 1000.123456789
+console.log(otherNumber.toPrecision(6));
 
-const newString = gameName.substring(1,5)
-console.log(newString);
+//**************************************maths****************************** 
+console.log(Math.random())
+console.log((Math.random()*10)+1)
 
-const anotherstring = gameName.slice(-8,8)
-console.log(anotherstring)
-
-const url =("https//shubham.com/shubham%022chauhan")
-console.log(url.replace('%02', '-'));
-console.log(url.includes("abhi"));
-console.log(gameName.split("-"));
-
+const min = 10
+const max = 20
+console.log(Math.floor(Math.random() * (max - min + 1))+ min);
 
 
