@@ -1,17 +1,22 @@
-// let obj = { harry: 98, rohan: 70, aakash: 73 };
-
-// let keys = Object.keys(obj);
-// for (let i = 0; i < keys.length; i++) {
-//   console.log(keys[i] + " got " + obj[keys[i]]);
+// let marks = {
+    // harry: 98,
+    // rohan: 70,
+    // aakash: 73
+// };
+// 
+// for (let i = 0; i < Object.keys(marks).length; i++) {
+    // let key = Object.keys(marks)[i];
+    // console.log(key + " : " + marks[key]);
 // }
-// for of loop
+
 let correctNumber = 7;
 let guess;
 
-while (guess !== correctNumber) {
-  guess = Number(prompt("Enter the number: "));
-  if (guess !== correctNumber) {
-    console.log("Try again");
-  }
-}
-console.log("Correct number entered!");
+do {
+    guess = prompt("Enter the number: ");
+    if (guess != correctNumber) {
+        console.log("Try again");
+    }
+} while (guess != correctNumber);
+
+console.log("Correct Number!");
