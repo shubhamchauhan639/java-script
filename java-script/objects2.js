@@ -39,3 +39,11 @@ const users = [
 users[1].email
 console.log(tinderUser);
 console.log(Object.keys(tinderUser));
+
+const course = {
+    courseName: "JavaScript",
+    price: 999,
+    courseInstructor: "Shubham Chauhan",
+}
+const{price}= course;
+console.log(price);
