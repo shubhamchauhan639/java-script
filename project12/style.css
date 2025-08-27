@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.canvas {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#grey {
+  background-color: grey;
+}
+
+#White {
+  background-color: white;
+  border: 2px solid #ccc;
+}
+
+#red {
+  background-color: red;
+}
+
+#yellow {
+  background-color: yellow;
+}
